@@ -29,5 +29,7 @@
         "psr-0": {
             "Horde_ListHeaders": "test/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
