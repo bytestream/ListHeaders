@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "bytestream/horde-mail": "dev-master",
+        "bytestream/horde-mail": "^2.7",
         "bytestream/horde-translation": "^2.2",
         "bytestream/horde-util": "^2"
     },
