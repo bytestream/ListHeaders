@@ -7,12 +7,13 @@
  * @subpackage UnitTests
  */
 
-class Horde_ListHeaders_ParseTest extends PHPUnit_Framework_TestCase
+class Horde_ListHeaders_ParseTest extends \PHPUnit\Framework\TestCase
 {
     private $parser;
 
-    public function setUp()
+    public function setUp(): void
     {
+        parent::setUp();
         $this->parser = new Horde_ListHeaders();
     }
 
